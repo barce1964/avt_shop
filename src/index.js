@@ -13,8 +13,8 @@ import {Provider} from 'react-redux';
 
 import createRootReducer from 'reducers';
 import Layout from './node_modules/containers/layouts/';
-import Phones from './node_modules/containers/phones';
-import reducers from 'reducers';
+import Phones from './node_modules/containers/phones/';
+import reducers from './node_modules/Reducers/';
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
